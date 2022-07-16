@@ -10,6 +10,7 @@ import {
 } from "react-router-dom"
 import Mail from './Mail';
 import EmailList from './EmailList';
+import SendMail from './SendMail';
 
 function App() {
   return (
@@ -21,15 +22,15 @@ function App() {
       <Sidebar/>
 
       <Switch>
-        <Route path='/mail'>
+        <Route path="/mail">
             <Mail/>
         </Route>
-        <Route path='/'>
+        <Route path="/">
             <EmailList/>
         </Route>
       </Switch>
       </div>
-     
+      <SendMail />
     </div>
     </Router>
   );
