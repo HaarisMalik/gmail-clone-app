@@ -13,7 +13,7 @@ export const mailSlice = createSlice({
       state.sendMessageIsOpen = true;
     },
     closeSendMessage: (state) => {
-      state.closeSendMessage = false;
+      state.sendMessageIsOpen = false;
     },
   },
 });
