@@ -15,7 +15,7 @@ import ExitToAppIcon from "@mui/icons-material/ExitToApp"
 import React from "react";
 import './Mail.css'
 import { useHistory } from "react-router-dom";
-import { useSelector } from "react-redux";
+import { useSelector } from "react-redux"; 
 import { selectOpenMail } from "./features/mailSlice";
 
 

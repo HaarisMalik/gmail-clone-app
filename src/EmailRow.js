@@ -3,7 +3,7 @@ import StarBorderOutlinedIcon from "@mui/icons-material/StarBorderOutlined"
 import { Checkbox, IconButton } from "@mui/material";
 import React from "react";
 import { useHistory } from "react-router-dom";
-import { useDispatch } from "react-redux/es/exports";
+import { useDispatch } from "react-redux";
 import "./EmailRow.css"
 import { selectMail } from "./features/mailSlice";
 
@@ -15,7 +15,8 @@ time }) {
     const dispatch = useDispatch();
 
     const openMail = () => {
-      dispatch(selectMail({
+      dispatch(
+        selectMail({
         id, 
         title, 
         subject, 
