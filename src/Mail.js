@@ -80,14 +80,16 @@ function Mail() {
             </div>
             <div className="mail__body">
                 <div className="mail__bodyHeader">
-                    <h2>{selectedMail?.subject}</h2>
+                    <h2>Subject</h2>
                     <LabelImportantIcon className="mail__important"/>
-                    <p>{selectedMail?.title}</p>
-                    <p className="mail__time">{selectedMail?.time}</p>
+                    <p>Notice</p>
+                    <p className="mail__time">10pm</p>
                 </div>
 
                 <div className="mail__message">
-                    <p>{selectedMail?.description}</p>
+                    <p>!!.This section of the gmail-clone has not been implemented yet, reason for it being hard coded and not dynamic
+                     as of yet.!!
+                    </p>
                 </div>
             </div>
         </div>

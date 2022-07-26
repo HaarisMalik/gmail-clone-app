@@ -77,19 +77,20 @@ function EmailList() {
                 description={message}
                 time={new Date(timestamp?.seconds * 1000).toUTCString()}
                />
-            ))}
+            ))} 
+             
+                <EmailRow
+                title="Twitch"
+                 subject="Hello fellow streamer!!!"
+                 description="This is a test"
+                 time="10pm"
+                 />
                 <EmailRow
                  title="Twitch"
                  subject="Hello fellow streamer!!!"
                  description="This is a test"
                  time="10pm"
-                 />
-                  <EmailRow
-                 title="Twitch"
-                 subject="Hello fellow streamer!!!"
-                 description="This is a test"
-                 time="10pm"
-                 />
+                 /> 
            </div>
         </div>
     )
