@@ -2,7 +2,7 @@ import LabelImportantOutlinedIcon from "@mui/icons-material/LabelImportantOutlin
 import StarBorderOutlinedIcon from "@mui/icons-material/StarBorderOutlined"
 import { Checkbox, IconButton } from "@mui/material";
 import React from "react";
-import { useHistory } from "react-router-dom";
+import { useHistory, useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import "./EmailRow.css"
 import { selectMail } from "./features/mailSlice";
@@ -27,6 +27,7 @@ time }) {
      history.push("/mail")
     }
     return (
+      <a href="/mail">
         <div onClick={openMail} className="emailRow">
 
           <div className="emailRow__options">
@@ -57,6 +58,7 @@ time }) {
           </p>
 
         </div>
+      </a>
     )
 }
 

@@ -1,4 +1,9 @@
 
+a {
+    text-decoration: none;
+    list-style: none;
+    color: inherit;
+}
 .emailRow {
     display: flex;
     align-items: center;
