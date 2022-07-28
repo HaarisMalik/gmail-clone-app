@@ -1,46 +1,39 @@
-# Getting Started with Create React App and Redux
+# GMAIL CLONE APP
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+![This is an image](![image](https://user-images.githubusercontent.com/52459612/181633180-2f2c1e72-511b-4f38-945a-b0cd034e3227.png)
 
-## Available Scripts
+1. [Firebase link of this project] (https://console.firebase.google.com/u/0/project/clone-app-477fd/overview)
 
-In the project directory, you can run:
+## Firebase Live Site Link:
 
-### `npm start`
+### View Clone HERE! >>> [https://clone-app-477fd.web.app/]
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Demo Preview
+[![Watch the video](https://user-images.githubusercontent.com/52459612/181637061-813ae6a6-4e44-444c-8ec0-44be69ad6cfe.mp4)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features & Notes
 
-### `npm test`
+🟢 Fully functional login and logout feature powered by Google Authentication.
+🟢 slick looking Gmail like UI.
+🟢 Compose mail button allows you to compose youself a message.(displays in inbox)
+🟢 Notice that this is just demo of the gmail clone showcasing firebase authentication and a realtime database.
+🟢 When message in inbox is clicked it routes you to the open mail section of the app.(dynamic text not implemented yet)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technolgies I used :
 
-### `npm run build`
+🔷 React => Entire front-end of this app is made by Reactjs.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🔷 Redux => State management tool with Reactjs.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+🔷 React-router => to navigate among various components. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+🔷 CSS Flex-box/+BEM => Reusable class's and flex-box to construct the clone layout.
 
-### `npm run eject`
+🔷 Material-UI => I've used Material-UI to style this application.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+🔷 React-hook-form => for form validation in React.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+🔷 Firebase-authentication => for Google authentication.(Being able to sign in through google and logout)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+🔷 Firebase => to deploy the app  
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
