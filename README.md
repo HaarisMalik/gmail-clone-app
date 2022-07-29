@@ -1,4 +1,4 @@
-# GMAIL CLONE APP
+# GMAIL CLONE 
 
 ![image](https://user-images.githubusercontent.com/52459612/181633180-2f2c1e72-511b-4f38-945a-b0cd034e3227.png)
 
@@ -9,14 +9,18 @@
 ### View Clone HERE! >>> [https://clone-app-477fd.web.app/]
 
 ## Demo Preview
-[![Watch the video](https://user-images.githubusercontent.com/52459612/181637061-813ae6a6-4e44-444c-8ec0-44be69ad6cfe.mp4)
+[![Watch the video](https://user-images.githubusercontent.com/52459612/181831191-6d53dad1-1362-4ef8-98c7-186675adc0f2.jpg)](https://user-images.githubusercontent.com/52459612/181637061-813ae6a6-4e44-444c-8ec0-44be69ad6cfe.mp4)
 
 ## Features & Notes
 
 🟢 Fully functional login and logout feature powered by Google Authentication.
+
 🟢 slick looking Gmail like UI.
+
 🟢 Compose mail button allows you to compose youself a message.(displays in inbox)
+
 🟢 Notice that this is just demo of the gmail clone showcasing firebase authentication and a realtime database.
+
 🟢 When message in inbox is clicked it routes you to the open mail section of the app.(dynamic text not implemented yet)
 
 ## Technolgies I used :
