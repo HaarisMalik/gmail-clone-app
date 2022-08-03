@@ -19,9 +19,11 @@
 
 🟢 Compose mail button allows you to compose youself a message.(displays in inbox)
 
-🟢 Notice that this is just demo of the gmail clone showcasing firebase authentication and a realtime database.
+🟢 Notice the clone is not a full functional clone of the original but has some key features that showcase how the system works. (Firebase Authentication & Database)
 
 🟢 When message in inbox is clicked it routes you to the open mail section of the app.(dynamic text not implemented yet)
+
+🟢 ! No Media Queries
 
 ## Technolgies I used :
 
