@@ -2,7 +2,6 @@
 
 ![image](https://user-images.githubusercontent.com/52459612/181633180-2f2c1e72-511b-4f38-945a-b0cd034e3227.png)
 
-1. [Firebase link of this project] (https://console.firebase.google.com/u/0/project/clone-app-477fd/overview)
 
 ## Firebase Live Site Link:
 
